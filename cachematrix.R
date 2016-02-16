@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## In case of the inverse being already calculated and the matrix being unchanged,
 ## it returns the cached value of the inverse.
 
-## The function can be called as cacheSolve(cacheMatrix1) or cachSolve(cacheMatrix2), 
+## The function can be called as cacheSolve(cacheMatrix1) or cacheSolve(cacheMatrix2), 
 ## where cacheMatrix1 and cacheMatrix2 are the results of makeCacheMatrix 
 ## function execution.
 
